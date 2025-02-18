@@ -134,7 +134,7 @@ export default function Home() {
                             <h2 style={{ flex: '1', fontSize: '20px', textWrap: 'nowrap' }}>Aktueller Benutzer</h2>
                             <h2 style={{ flex: '1', fontSize: '20px', textWrap: 'nowrap', color: '#D85817' }}>Im Warten...</h2>
                         </div>
-                        {['TR', 'RT', 'KS', 'AK', '**', '**'].map((value) => (
+                        {['TR', 'RT', 'KS', 'AK', '**', '***'].map((value) => (
                             <div key={value} style={{ display: 'flex', gap: '15px', borderBottom: '1px solid grey', padding: '16px' }}>
                                 <label
                                     style={{
